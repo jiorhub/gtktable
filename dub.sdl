@@ -1,0 +1,15 @@
+name "gui"
+description "A minimal D application."
+authors "Oleg Lelenkov"
+copyright "Copyright © 2017, Oleg Lelenkov"
+license "proprietary"
+
+
+dependency "gtk-d:gtkd" version="~>3.5.1"
+dependency "vibe-d:http" version="~>0.8.0-beta.5"
+
+configuration "dev" {
+    targetPath "out/"
+    targetType "executable"
+}
+
